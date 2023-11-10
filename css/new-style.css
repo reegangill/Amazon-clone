@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+}
+img{
+    max-width: 100%;
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+header .navbar{
+    width: 100vw;
+    height:auto;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+/* ==== Left Nav Bar ======= */
+.navbar .left-nav{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.left-nav .logo{
+    flex-basis: 35%;
+    height: auto;
+}
+.left-nav .location-hover{
+    flex-basis: 65%;
+}
+.logo img{
+    max-width: 100%;
+}
+/*===== Center Nav ======= */
+.center-nav{
+    flex-basis: 50%;
+}
+.center-nav .fomr-serach{
+    display: flex;
+}
+.fomr-serach .form-left{
+    flex-basis: 10%;
+    background-color: lightgray;
+}
+.form-left span{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: inherit;
+    width: 100%;
+    height: 3rem;
+}
+.form-left i{
+    color: black;
+    height: 2rem;
+
+}
+.fomr-serach .serach-bar{
+    flex-basis: 80%;
+}
+.fomr-serach .serach-icon{
+    flex-basis: 10%;
+}
+.serach-icon i{
+    background-color: #febd69;
+    width: 100%;
+    height: 2.4rem;
+    font-size: 1rem;
+    padding: .8rem 30%;
+}
+.fomr-serach .serach-bar input{
+    width: 100%;
+    height: 2.5rem;
+}
+
+/* ==== Right Nav =====  */
+
+.right-nav{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.right-nav .country-details{
+    flex-basis: 5%;
+    display: flex;
+    gap: .4rem;
+}
+
+.right-nav .sign-in{
+    flex-basis: 35%;
+}
+
+.right-nav .return-order{
+    flex-basis: 20%;
+}
+
+.right-nav .cart-details{
+     flex-basis: 30%;
+}
+
+
